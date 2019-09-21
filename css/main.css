@@ -54,7 +54,23 @@ video
 	width: 100%;
 }
 
+#index
+{
+	display: flex;
+	flex-direction: column;
+}
 
+#description
+{
+	background: url("../images/text_bg.jpg") center;
+}
+
+#description p
+{
+	font-family: "Raleway Light";
+	font-size: 25px;
+	margin: 30px;
+}
 /*About Page*/
 #blackBG
 {
@@ -210,6 +226,11 @@ footer nav
 	{
 		width: 80%;
 		margin: 0 auto;
+	}
+
+	#description
+	{
+		height: 400px;
 	}
 }
 
