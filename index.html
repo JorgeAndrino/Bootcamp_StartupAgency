@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Equilibrium</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+        <nav id="mbNav">
+            <img id="burgerNav" src="images/burger.png" alt="Burger">
+            <a href="index.html"><img id = "mainLogo" src="images/logo.svg" alt="Logo"></a>
+        </nav>
+
+        <nav id="desktopNav">
+            <div id="nav1">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Our Team</a></li>
+            </div>
+            <a href="index.html"><img id = "mainLogo" src="images/logo.svg" alt="Logo"></a>
+            <div id="nav1">
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact Us</a></li> 
+            </div>
+        </nav>
+        </div><!--end navbar-->
+    </header>
+
+    <div id="video">
+        <video controls >
+            <source src="includes/video.mp4" type="video/mp4" >
+        </video>
+        <div class="player_controls">
+            <div class="progress">
+                <div class="progress_filled"></div>
+            </div>
+            <button class="player_button_toggle" title="Toggle Play"></button>
+            <input type="range" name="volume" class="player_slider" min="0" max="1" step="0.05" value="1">
+            <input type="range" name="playbackRate" class="player_slider" min="0.5" max="2" step="0.1" value="1">
+            <button data-skip="-10" class="player_button"><< 10s</button>
+            <button data-skip="10" class="player_button">10s >></button>
+        </div>
+    </div>
+
+    <div id="description">
+        <p>
+            Our agency is based on helping businesses achieve their true potential. 
+            We provide the help needed to make your product or service: popular with the right publicity and user-friendly to the people that come to the website. 
+            We will evaluate what is the best outcome and show all of our ideas so you can decide with us how bright your tomorrow will look. 
+        </p>
+    </div>
+    <footer>
+        <nav>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Our Team</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact Us</a></li> 
+        </nav>       
+    </footer>
+</body>
+<script src="/js/main.js"></script>
+</html>
